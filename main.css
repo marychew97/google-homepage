@@ -1,9 +1,19 @@
-/*#container{
+#container{
     position: relative;
-    left: 40%;
-    top: 150px;
-}*/
+    top: 170px;
+}
 
 body{
     text-align:center;
 }
+
+#inputText{
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px;
+}
+
+#btnContainer{
+    margin-top: 30px;
+}
+
