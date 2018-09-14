@@ -52,6 +52,10 @@ input[type=button]:hover{
 ul{
     list-style-type: none;
 }
+ 
+ul li{
+    display: inline
+}
 
 #left{
     border: 1px solid black;
