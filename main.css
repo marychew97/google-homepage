@@ -5,6 +5,7 @@
 
 body{
     text-align:center;
+    margin:0;
 }
 
 input[type=text]{
@@ -43,24 +44,42 @@ input[type=button]:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
+/*
 #listFooter{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
  
 ul li{
-    display: inline
+    display: inline;
+    padding: 10px;
 }
 
-#left{
-    border: 1px solid black;
+ul li a{
+    color: #000;
 }
 
-#right{
-    border: 1px solid black;
+#left li{
+    float: left;
+    z-index: 1;
+}
+
+#left li a{
+    color: #000;
+}
+
+#right li {
+    float: right;
 }
