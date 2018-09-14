@@ -20,4 +20,13 @@ body{
 input[type=button]{
     padding: 10px;
     margin: 3px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #757575;
+    font-weight: bold;
+}
+
+input[type=button]:hover{
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
