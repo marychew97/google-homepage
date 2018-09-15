@@ -1,11 +1,61 @@
 #container{
     position: relative;
-    top: 170px;
+    top: 140px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+#container a{
+    text-decoration: none;
+}
+
+#container a:hover{
+    text-decoration: underline;
 }
 
 body{
     text-align:center;
     margin:0;
+}
+
+#upperNav ul{
+    margin-top:10px;
+    padding: 0px;
+    color: #000;
+    list-style-type: none;
+    overflow: hidden;
+    position: top;
+    top: 0;
+    width: 100%;
+    text-align: right;
+}
+
+#upperNav ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #000;
+}
+
+#upperNav ul li a{
+    text-decoration: none;
+}
+
+#upperNav ul li a:hover{
+    text-decoration: underline;
+}
+
+#upperNav img{
+    width: 15px;
+    height: 15px;
+}
+
+#upperNav input[type=button]{
+    font-weight: bold;
+    background-color: rgb(49, 49, 250);
+    border: none;
+    color: #fff;
 }
 
 input[type=text]{
@@ -26,6 +76,12 @@ input[type=text]:focus{
     border: 1px solid #f2f2f2;
 }
 
+.imageInput img{
+    position: relative;
+    left: -35px;
+    top: 5px;
+}
+
 #btnContainer{
     margin-top: 25px;
 }
@@ -44,17 +100,10 @@ input[type=button]:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-/*
-#listFooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
-
 footer{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 45px 45px;
+    grid-template-rows: 42px 42px;
     bottom: 0;
     margin: 0;
     padding: 0px;
@@ -70,6 +119,31 @@ footer ul{
     background-color: #f2f2f2;
     border-top: 1px solid #dfdcdc;
     border-top-width: 1px;
+}
+
+#bottomNav ul li, #topNav ul li{
+    float: left;
+    font-family: sans-serif;
+}
+
+#topNav ul li{
+    color: #807d7d;
+    font-size: 15px;
+}
+
+#bottomNav ul li{
+    padding-right: 25px;
+    padding-left:0px;
+    font-size: 13px;
+}
+
+#bottomNav ul li a{
+    text-decoration: none;
+    color: #838080;
+}
+
+#bottomNav ul li a:hover{
+    text-decoration: underline;
 }
 
 /*
@@ -100,19 +174,4 @@ footer ul{
     line-height: 50px;
 }*/
  
-#bottomNav ul li, #topNav ul li{
-    float: left;
-}
 
-#bottomNav ul li{
-    padding-right: 20px;
-    padding-left:0px;
-}
-
-#bottomNav ul li a{
-    text-decoration: none;
-}
-
-#bottomNav ul li a:hover{
-    text-decoration: underline;
-}
