@@ -51,7 +51,44 @@ input[type=button]:hover{
     justify-content: space-between;
 }*/
 
-ul{
+footer{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 45px 45px;
+    bottom: 0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+#bottomNav, #topNav{
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfdcdc;
+    border-top-width: 1px;
+}
+
+/*
+#topNav ul{
+    margin:0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #000;
+    text-align:left;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    top: 233px;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+}
+
+#bottomNav ul{
     list-style-type: none;
     margin: 0;
     padding: 0px;
@@ -60,14 +97,22 @@ ul{
     bottom: 0;
     width: 100%;
     background-color: #f2f2f2;
-}
+    line-height: 50px;
+}*/
  
-ul li{
-    display: inline;
-    padding: 10px;
+#bottomNav ul li, #topNav ul li{
     float: left;
 }
 
-ul li a{
-    color: #000;
+#bottomNav ul li{
+    padding-right: 20px;
+    padding-left:0px;
+}
+
+#bottomNav ul li a{
+    text-decoration: none;
+}
+
+#bottomNav ul li a:hover{
+    text-decoration: underline;
 }
